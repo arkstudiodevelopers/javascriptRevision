@@ -21,3 +21,9 @@ let magicTwo = (three, four) => three.concat(four);
 console.log(magicTwo([1, 2, 3, 4], [5, 6, 7, 8]));
 
 // higher order functions
+// var adding = function() {
+//     return function adding(number, value = 2) {
+//         return number + value;
+//     }
+// }
+// console.log(adding(80, 9));
